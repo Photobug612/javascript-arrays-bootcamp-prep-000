@@ -29,8 +29,7 @@ function accessElementInArray(array, index) {
 }
 
 function destructivelyRemoveElementFromEndOfArray(array){
-  var fifthArray = array;
-  fifthArray.pop()
+  array.pop()
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array, element){
@@ -42,5 +41,3 @@ function destructivelyRemoveElementFromBeginningOfArray(array, element){
 function removeElementFromBeginningOfArray(array) {
   return array.slice(1)
 }
-
-function destructivelyRemoveElementFromEndOfArray(array) {
